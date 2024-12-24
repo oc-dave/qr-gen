@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  text-align: center;
+  background-color:rgb(23, 18, 41);
+  color: white;
+}
+
+.app{
+  padding: 2rem 1rem;
+}
+
+h1{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+input{
+  appearance:none;
+  outline: none;
+  background-color: #eee;
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+button, a{
+  appearance: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #2bcb4b;
+  font-size: 1.5rem;
+  line-height: 1;
+  background: none;
+}
+
+img{
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+footer{
+  margin-top:200px ;
+   font-family: "Orbitron", serif;
+}
